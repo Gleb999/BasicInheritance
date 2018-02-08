@@ -8,5 +8,6 @@ namespace BasicInheritance
 {
     class salead MiniVav : Car
     {
+
     }
 }
