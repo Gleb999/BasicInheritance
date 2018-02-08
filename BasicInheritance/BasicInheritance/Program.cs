@@ -11,10 +11,11 @@ namespace BasicInheritance
         static void Main(string[] args)
         {
             Console.WriteLine("***** Basic Inheritance *****\n");
-            Car myCar = new Car(80);
 
-            myCar.Speed = 50;
-            Console.WriteLine("My Car car is going { 0} MPH", myCar.Speed);
+            MiniVav myVan = new MiniVav();
+            myVan.Speed = 10;
+            Console.WriteLine("My Car car is going { 0} MPH", myVan.Speed);
+            myVan.currSpeed = 55;
             Console.ReadLine();
         }
     }
